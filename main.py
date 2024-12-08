@@ -136,7 +136,12 @@ if bulletY <= 0:
     bullet_state = "ready"
 elif bullet_state == "fire":
     fire_bullet(bulletX, bulletY)
-    bulletY -= BULLET_SPEED_Y
+    bulletY == BULLET_SPEED_Y
+    bulletY -= bulletY_change
+
+player(playerX, playerY)
+
+show_score(textX, textY)
 
 
 
